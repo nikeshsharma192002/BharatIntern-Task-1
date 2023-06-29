@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blog </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <div class="container mt-5">
+    <h1>Content Managment Tool</h1>
+    <div class="form-group">
+      <label for="blogTitle">Blog Title</label>
+      <input type="text" id="blogTitle" class="form-control" placeholder="Enter the blog title">
+    </div>
+
+    <div class="form-group">
+      <label for="blogContent">Blog Content</label>
+      <textarea id="blogContent" class="form-control" rows="6" placeholder="Enter the blog content"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="imageUpload">Upload Image</label>
+      <input type="file" id="imageUpload" class="form-control-file">
+    </div>
+
+    <div class="form-group">
+      <label for="videoLink">Video Link</label>
+      <input type="text" id="videoLink" class="form-control" placeholder="Enter the video link">
+    </div>
+
+    <div class="form-group">
+      <button id="submitBtn" class="btn btn-primary">Submit</button>
+    </div>
+    
+    <div class="form-group">
+      <h3>Preview:</h3>
+      <div id="preview"></div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
